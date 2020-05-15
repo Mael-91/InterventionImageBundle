@@ -1,0 +1,5 @@
+services:
+  Mael\InterventionImageBundle\MaelInterventionImageManager:
+    class: Mael\InterventionImageBundle\MaelInterventionImageManager
+    autoconfigure: true
+    autowire: true
