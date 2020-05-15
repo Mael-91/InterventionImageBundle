@@ -9,7 +9,7 @@ Simple integration for use [intervention/image](https://github.com/Intervention/
 - [FileInfo Extension](https://www.php.net/manual/fr/book.fileinfo.php)
 - GD Library (>= 2.0) **or** Imagick PHP Extension (>= 6.5.7)
 
-## Installation
+## Installation
 
 Run this command in your terminal :
 
@@ -19,7 +19,7 @@ composer require mael/intervention-image-bundle
 
 Answer **yes** for `mael/intervention-image-bundle`
 
-## Configuration
+## Configuration
 
 You can chose the driver for image manipulation in `config/packages/mael_intervention_image.yaml`
 
@@ -28,7 +28,7 @@ mael_intervention_image:
     driver: gd ## GD or imagick; Default is GD
 ```
 
-## Usage
+## Usage
 
 ```php
 use \Mael\InterventionImageBundle\MaelInterventionImageManager;
