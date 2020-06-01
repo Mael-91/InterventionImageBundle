@@ -16,4 +16,4 @@ install:
   - composer create-project "symfony/skeleton:${SYMFONY_VERSION}" flex
   - cd flex
   - composer config extra.symfony.allow-contrib true
-  - composer require mael/recaptcha-bundle --prefer-dist --no-progress --no-suggest
+  - composer require mael/intervention-image-bundle --prefer-dist --no-progress --no-suggest
