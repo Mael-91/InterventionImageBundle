@@ -17,3 +17,4 @@ before_install:
   - cd flex
   - composer config extra.symfony.allow-contrib true
   - composer require mael/intervention-image-bundle --prefer-dist --no-progress --no-suggest
+  - cd ..
