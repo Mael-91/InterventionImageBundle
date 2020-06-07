@@ -4,4 +4,4 @@ services:
     autoconfigure: true
     autowire: true
     arguments:
-      $driver: '%mael_intervention_image.driver'
+      $driver: '%mael_intervention_image.driver%'
