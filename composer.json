@@ -2,7 +2,7 @@
   "name": "mael/intervention-image-bundle",
   "description": "Simple intervention/image integration for symfony projects",
   "keywords": ["symfony", "intervention", "image", "image manipulation", "gd", "imagick", "watermark", "thumbnail"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "symfony-bundle",
   "homepage": "https://github.com/Mael-91",
