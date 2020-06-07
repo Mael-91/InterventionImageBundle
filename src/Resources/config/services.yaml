@@ -3,3 +3,5 @@ services:
     class: Mael\InterventionImageBundle\MaelInterventionImageManager
     autoconfigure: true
     autowire: true
+    arguments:
+      $driver: '%mael_intervention_image.driver%'
